@@ -10,7 +10,7 @@ public abstract class Vehiculo {
         this.tarifaBase = tarifaBase;
     }
 
-    public abstract double CalculoTarifa();
+    public abstract double calcularTarifa();
 
     public String getPlaca() {
         return placa;
